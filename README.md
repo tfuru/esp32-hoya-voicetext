@@ -1,5 +1,5 @@
 # esp32-hoya-voicetext
-VoiceText Web API を ESP32 で最小構成で動かすサンプル。  
+VoiceText Web API のMP3 を ESP32 と最小構成のハードウェアで再生するサンプル  
 オーディオコーディックICやI2S DACが不要な簡単な回路です。 
 
 # ハードウェア
