@@ -1,7 +1,7 @@
 # esp32-hoya-voicetext
 
-#環境
-[VSCode](https://code.visualstudio.com/)
+# 環境
+[VSCode](https://code.visualstudio.com/)  
 [PlatformIO IDE for VSCode](https://docs.platformio.org/en/latest/ide/vscode.html)
 
 # 必要API KEY
