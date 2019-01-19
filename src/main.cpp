@@ -20,6 +20,8 @@ const char *PASSWORD = WIFI_PASSWORD;
 //https://cloud.voicetext.jp/webapi API_KEY
 const String API_KEY = TTS_API_KEY;
 
+const char * TTS_TEXT = "おはようございます";
+
 const char *URL="https://api.voicetext.jp/v1/tts";
 std::map<std::string, std::string> headers;
 
@@ -60,7 +62,7 @@ void StatusCallback(void *cbData, int code, const char *string)
 
 void initMP3(){
   file = new AudioFileSourceHTTPStreamPost();
-  file->open(URL,headers,"text="+AudioFileSourceHTTPStreamPost::URLEncode("こんにちは")+"&speaker=hikari&volume=200&speed=120&format=mp3");
+  file->open(URL,headers,"text="+AudioFileSourceHTTPStreamPost::URLEncode(TTS_TEXT)+"&speaker=hikari&volume=200&speed=120&format=mp3");
   buff = new AudioFileSourceBuffer(file, AUDIO_FILE_SOURCE_BUFFER);
   buff->RegisterStatusCB(StatusCallback, (void*)"buffer");
   out = new AudioOutputI2SNoDAC();
