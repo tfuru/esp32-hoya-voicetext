@@ -116,6 +116,8 @@ void loop()
   } else {
     Serial.printf("MP3 done\n");
     delay(3000);
+    //ループ再生する場合
+    //initMP3();
   }
 }
 
