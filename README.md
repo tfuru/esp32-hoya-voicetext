@@ -17,7 +17,7 @@ VoiceText Web API のMP3 を ESP32 と最小構成のハードウェアで再生
 
  [ESP32でmp3単純再生 - すらりん日記](https://blog.techlab-xe.net/archives/6026)
 
-# ソフトウェア開発環境
+# ソフトウェア開発環境
 [VSCode](https://code.visualstudio.com/)  
 [PlatformIO IDE for VSCode](https://docs.platformio.org/en/latest/ide/vscode.html)
 
