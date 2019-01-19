@@ -1,6 +1,6 @@
 # esp32-hoya-voicetext
 VoiceText Web API を ESP32 で最小構成で動かすサンプル。  
-オーディオコーディックICやI2S DACが不要です。 
+オーディオコーディックICやI2S DACが不要な簡単な回路です。 
 
 # ハードウェア
 [Adafruit HUZZAH32](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather)
